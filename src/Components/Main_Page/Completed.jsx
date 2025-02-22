@@ -81,7 +81,7 @@ const Completed = () => {
 
         {/* Task Board */}
         <main className="p-6 bg-gray-100 overflow-hidden">
-          <h3 className="text-xl font-semibold mb-6">Task Management</h3>
+          <h3 className="text-xl font-semibold mb-6">Project Management</h3>
           <div className="grid grid-cols-3 gap-6">
             <TaskColumn
               title="To Do"
