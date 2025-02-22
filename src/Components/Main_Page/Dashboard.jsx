@@ -71,7 +71,7 @@ const Dashboard = () => {
         {/* Dashboard Content */}
         <main className="p-6 bg-gray-100 overflow-hidden">
           <div className="grid grid-cols-2 gap-6 mb-6">
-            <Table title="Task List" data={tasks} />
+            <Table title="Project List" data={tasks} />
             <Table title="User Status" data={users} />
           </div>
           <div className="grid grid-cols-4 gap-6">
