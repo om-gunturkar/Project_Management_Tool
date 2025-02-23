@@ -39,8 +39,8 @@ const Completed = () => {
     },
   ];
   const baseClasses = "flex items-center p-3 rounded-lg !no-underline";
-  const activeClasses = "bg-blue-600 text-white"; // Active state
-  const defaultClasses = "hover:bg-gray-100 text-gray-700"; // Default state
+  const activeClasses = "bg-blue-600 text-white";
+  const defaultClasses = "hover:bg-gray-100 text-gray-700";
   return (
     <div className="flex h-screen">
         
@@ -79,7 +79,7 @@ const Completed = () => {
           </div>
         </header>
 
-        {/* Task Board */}
+        {/* Project Board */}
         <main className="p-6 bg-gray-100 overflow-hidden">
           <h3 className="text-xl font-semibold mb-6">Project Management</h3>
           <div className="grid grid-cols-3 gap-6">
@@ -102,7 +102,7 @@ const Completed = () => {
   );
 };
 
-// Task Column Component
+// Project Column Component
 const TaskColumn = ({ title, tasks }) => (
   <div className="bg-white p-4 shadow-md rounded-lg">
     <h4 className="text-lg font-semibold mb-4">{title}</h4>
